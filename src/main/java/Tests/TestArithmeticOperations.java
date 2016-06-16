@@ -16,7 +16,7 @@ public final class TestArithmeticOperations {
     private int operand2;
     private String operation;
 	private int result;
-	private final static String pathToFile = "C:\\1.txt";
+	private final static String pathToFile = "testData.txt";
 
     public TestArithmeticOperations(String operand1, String operand2, String operation, String result) {
     this.operand1 = Integer.parseInt(operand1);
